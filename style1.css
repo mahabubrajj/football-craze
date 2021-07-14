@@ -219,7 +219,7 @@ header{
     align-items: center;
 }
 .footer-container{
-    width: 1050px;
+    width: auto;
     margin: 20px 0;
     display: flex;
     justify-content: center;
@@ -244,14 +244,6 @@ header{
     margin: 10px;
 }
 
-/* .icons i:nth-child(1) {
-    padding: 20px 24px;
-
-}
-.icons i:nth-child(4) {
-    padding: 20px 22px;
-
-} */
 .icons i:hover{
     background: var(--link-color);
 }
@@ -284,6 +276,12 @@ header{
         display: flex;
         justify-content: center;
     }
+    .players-area{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -299,8 +297,14 @@ header{
     margin-bottom: 30px;
     margin-right: 0;
     }
-    .heilight-left h2, p{
+    .heilight-left{
         text-align: center;
+    }
+    .blog-container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
     }
     .blogs {
         display: grid;
@@ -335,12 +339,21 @@ header{
     .header-left {
         margin-top: 0;
     }
+    .header-left h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
     .header-right img {
         width: 100%;
-        margin-left: 30px;
+        margin-left: 20px;
         transition: 1s ease;
     }
-
+    .players-area {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
     .players {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
